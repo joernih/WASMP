@@ -1,4 +1,6 @@
+library(googlesheets4)
 googlesheets4::gs4_auth(email="jorn.halvorsen@gmail.com")
+gs4_auth()
 url <- 'https://docs.google.com/spreadsheets/d/1RBtpzzrAY5OIzlgBSLfzGvJeHmMJxMC_cEl3rOXV4m8/edit?gid=1266997759#gid=1266997759'
 sht <- 'krypto'
 rng <- 'A1:F2532'
