@@ -1,3 +1,16 @@
+library(WASMP)
+mvarde <- read.csv("~/WASM/WASMP/data-raw/csv/mvarde.csv", comment.char="#")
+View(mvarde)
+
+
+
+
+
+
+
+
+
+
 library(googlesheets4)
 googlesheets4::gs4_auth(email="jorn.halvorsen@gmail.com")
 gs4_auth()
