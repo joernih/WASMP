@@ -1,4 +1,6 @@
-biler <- WASMP::biler
+library(readr)
+df_biler <- read_csv("https://raw.githubusercontent.com/joernih/WASMP/refs/heads/main/data-raw/csv/biler.csv")
+biler <- df_biler
 #########################################################
 
 rm(list=ls())
